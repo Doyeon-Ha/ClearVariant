@@ -17,7 +17,8 @@ This repository contains the model code, instructions for train and inference, a
 * **Link:** [Link to Paper PDF or DOI]
 
 ## Updated Logs
-(Release versions and update history by date.)
+### May 15, 2025
+* Initial release of ClearVariant
 
 ## Requirements
 (List the prerequisites.)
