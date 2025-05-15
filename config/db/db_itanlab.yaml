@@ -1,0 +1,13 @@
+raw_data_processor_config:
+  db_name: itanlab
+  missense_only: true
+  raw_data_path:
+    hgmd: data/input/goflof/goflof_HGMD2019_v032021_allfeat.csv
+    clinvar: data/input/goflof/goflof_ClinVar_v062021.csv
+options:
+  possible_db_processing:
+    - stratified_5fold
+    - 5fold
+    - all_test
+  db:
+    - itanlab

@@ -1,0 +1,36 @@
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+defaults:
+  - _self_
+  - db@_global_: db_itanlab
+  - task@_global_: task_train
+  - override hydra/job_logging: disabled
+raw_data_processor_config:
+  db_option: ${options.db.0}
+  max_seq_len: ${constants.max_seq_len}
+  raw_data_path:
+    reviewed_uniprot: data/input/protein_ref_seq/uniprotkb.tsv
+dataset_builder_config:
+  processed_dataset: False
+  db_processing: ${options.possible_db_processing.0}
+  test_fold: 0
+  random_seed: 42
+model_config:
+  pretrained_model: ${options.pretrained_models.0}
+  model_checkpoint: ${model_config.pretrained_model}
+  device: 0
+  max_seq_len: ${constants.max_seq_len}
+  problem_type: null
+constants:
+  output_root: data/result/model
+  max_seq_len: 2046
+options:
+  pretrained_models:
+    - facebook/esm2_t6_8M_UR50D
+    - facebook/esm2_t12_35M_UR50D
+    - facebook/esm2_t30_150M_UR50D
+    - facebook/esm2_t33_650M_UR50D
+    - facebook/esm2_t36_3B_UR50D
+    - facebook/esm2_t48_15B_UR50D

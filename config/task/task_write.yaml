@@ -1,0 +1,3 @@
+task_operator_config:
+  task: write
+  batch_size: 16

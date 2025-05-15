@@ -1,0 +1,3 @@
+task_operator_config:
+  task: inference
+  batch_size: 16
