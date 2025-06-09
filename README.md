@@ -73,7 +73,7 @@ To select your GPU device, set an appropriate value for `model_config.device`.
 ```bash
 python main.py dataset_builder_config.test_fold=0 model_config.device=0
 ```
-Each epoch takes approximately 10 minutes.
+(Each epoch takes approximately 10 minutes.)
 
 ### ProteinGym
 To select the ProteinGym dataset to train on, choose one of the entries from the `options.db` list in the `config/db/db_proteingym.yaml` file, and set it as the value for `raw_data_processor_config.db_option`.
