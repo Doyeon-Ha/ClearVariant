@@ -21,8 +21,7 @@ This repository contains the model code, instructions for train and inference, a
 * Initial release of ClearVariant
 
 ## Requirements
-(List the prerequisites.)
-* Hardware: A100 GPU
+* Hardware: A100 GPU (Not typically found in standard desktop computers)
 * OS: Linux
 * Python version: 3.12.1
 * Main Dependencies: [env.yml](env.yml)
