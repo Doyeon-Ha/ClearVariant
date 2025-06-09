@@ -1,5 +1,7 @@
 # ClearVariant
 
+![Image_fjqwdqfjqwdqfjqw](https://github.com/user-attachments/assets/74343964-cbb5-4359-ab54-464f863f128e)
+
 ## Overview
 ClearVariant is a deep learning framework designed to predict the functional impact of human genetic variants, with a particular focus on identifying the direction of mutational effects — such as gain-of-function (GOF) and loss-of-function (LOF) mutations. Built on protein language models (PLMs) fine-tuned with human variant data, ClearVariant analyzes full-length mutant and reference protein sequences to achieve state-of-the-art performance on benchmark datasets including ClinVar, HGMD and ProteinGym.
 
