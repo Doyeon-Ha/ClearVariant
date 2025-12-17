@@ -149,3 +149,19 @@ This project utilizes the **ESM-2** model, developed by Meta AI (Facebook Resear
 ## Contact
 Doyeon Ha - biologysaves@gmail.com
 
+Access to Pretrained Models
+Due to the sensitive nature of the training data and potential safety concerns, the pretrained weights for ClearVariant are not publicly available. However, we are happy to share the model with academic and industrial researchers upon request.
+To access the model, please send an email to biologysaves@gmail.com with the following information to verify your identity and intended usage:
+
+Subject: Request for ClearVariant Pretrained Weights
+
+Full Name:
+
+Affiliation: (University, Research Institute, or Company)
+
+Intended Use: (Briefly describe how you plan to use the model and for what research purpose)
+
+
+Note: Requests from official institutional email addresses are preferred for faster verification.
+
+
