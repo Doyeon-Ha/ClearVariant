@@ -1,0 +1,18 @@
+{
+  "title": "ClearVariant: predicting gain- or loss-of-function variants with protein language models",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {"name": "Kim, Sungnam", "affiliation": "3billion Inc."},
+    {"name": "Kwon, Kisang", "affiliation": "3billion Inc."},
+    {"name": "Chung, Wonseok", "affiliation": "3billion Inc."},
+    {"name": "Han, Joohyun", "affiliation": "3billion Inc."},
+    {"name": "Ha, Doyeon", "affiliation": "3billion Inc."}
+  ],
+  "keywords": ["variant effect prediction", "gain of function", "loss of function", "protein language model"],
+  "related_identifiers": [
+    {"identifier": "https://doi.org/10.5281/zenodo.15429133", "relation": "isSupplementedBy", "resource_type": "dataset"}
+  ]
+}
